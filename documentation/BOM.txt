@@ -1,0 +1,13 @@
+
+1 x ESP32 OLED V2.0 TTGO (aliexpress)
+1 x network cable to (scavenging)
+2 x HX711 modules Dual-channel 24-bit A/D (better with metal shield) (aliexpress - red board)
+1 x YZC-133 2kg for front scale sensor (aliexpress)
+1 x YZC-133 3kg for rear scale sensor (aliexpress)
+5 x steel rod 3 mm x 170 (~ length depends on your models) (aliexpress / amazon)
+
+M3/M4 screws for the YZC-133
+Heat Shrink tube
+
+... and the 3d printed parts.
+
