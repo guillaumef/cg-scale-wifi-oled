@@ -3,7 +3,7 @@
  * Work on:
  *    1 - base
  *    2 - support
- *    3 - stick support
+ *    3 - rod support
  *    4 - display all
  */
 WORK_ON = 4;
@@ -204,7 +204,7 @@ module plane_support() {
 	}
 }
 
-module stick_support() {
+module rod_support() {
 	hole_dia = ps_st_hole_dia+0.3;
 	difference() {
 		rotate([0,0,90]) {
@@ -239,7 +239,7 @@ if (WORK_ON == 2) {
 }
 
 if (WORK_ON == 3) {
-	stick_support();
+	rod_support();
 }
 
 
@@ -260,8 +260,8 @@ if (WORK_ON == 4) {
 	}
 	color("Red") {
 		translate([ base_w/2, 10, base_root_h + base_ss_clearance_h + ss_wh ])
-			stick_support();
+			rod_support();
 		translate([ base_w/2, 10 + ss_l*3/2, base_root_h + base_ss_clearance_h + ss_wh ])
-			stick_support();
+			rod_support();
 	}
 }
