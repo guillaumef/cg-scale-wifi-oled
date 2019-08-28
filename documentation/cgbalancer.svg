@@ -1,0 +1,3256 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:xhtml="http://www.w3.org/1999/xhtml"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   style="display: block; overflow: hidden; position: relative; top: 0px;"
+   width="597"
+   height="843"
+   version="1.1"
+   id="svg867"
+   sodipodi:docname="cgbalancer.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata873">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs871" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1059"
+     id="namedview869"
+     showgrid="false"
+     inkscape:zoom="1.1198102"
+     inkscape:cx="479.41553"
+     inkscape:cy="307.05797"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg867" />
+  <g
+     id="g860">
+    <g
+       id="g2" />
+    <g
+       id="g856">
+      <g
+         style="visibility: visible;"
+         id="g84">
+        <path
+           d="m 0 0  0 842.25  595.5 0  0 -842.25 L 0 0 Z m 15 15  565.5 0  0 812.25  -565.5 0  0 -812.25 Z"
+           fill="#fff"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           pointer-events="all"
+           id="path4" />
+        <path
+           d="M 0 140.38 L 15 140.38 M 0 280.75 L 15 280.75 M 0 421.13 L 15 421.13 M 0 561.5 L 15 561.5 M 0 701.88 L 15 701.88"
+           fill="none"
+           stroke="white"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="path6" />
+        <path
+           d="M 0 140.38 L 15 140.38 M 0 280.75 L 15 280.75 M 0 421.13 L 15 421.13 M 0 561.5 L 15 561.5 M 0 701.88 L 15 701.88"
+           fill="none"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           id="path8" />
+        <path
+           d="M 580.5 140.38 L 595.5 140.38 M 580.5 280.75 L 595.5 280.75 M 580.5 421.13 L 595.5 421.13 M 580.5 561.5 L 595.5 561.5 M 580.5 701.88 L 595.5 701.88"
+           fill="none"
+           stroke="white"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="path10" />
+        <path
+           d="M 580.5 140.38 L 595.5 140.38 M 580.5 280.75 L 595.5 280.75 M 580.5 421.13 L 595.5 421.13 M 580.5 561.5 L 595.5 561.5 M 580.5 701.88 L 595.5 701.88"
+           fill="none"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           id="path12" />
+        <path
+           d="M 148.88 0 L 148.88 15 M 297.75 0 L 297.75 15 M 446.63 0 L 446.63 15"
+           fill="none"
+           stroke="white"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="path14" />
+        <path
+           d="M 148.88 0 L 148.88 15 M 297.75 0 L 297.75 15 M 446.63 0 L 446.63 15"
+           fill="none"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           id="path16" />
+        <path
+           d="M 148.88 827.25 L 148.88 842.25 M 297.75 827.25 L 297.75 842.25 M 446.63 827.25 L 446.63 842.25"
+           fill="none"
+           stroke="white"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="path18" />
+        <path
+           d="M 148.88 827.25 L 148.88 842.25 M 297.75 827.25 L 297.75 842.25 M 446.63 827.25 L 446.63 842.25"
+           fill="none"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           id="path20" />
+        <g
+           transform="translate(0,63)scale(0.75)"
+           id="g22">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">F</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(0,204)scale(0.75)"
+           id="g24">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">E</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(0,344)scale(0.75)"
+           id="g26">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">D</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(0,485)scale(0.75)"
+           id="g28">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">C</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(0,625)scale(0.75)"
+           id="g30">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">B</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(0,765)scale(0.75)"
+           id="g32">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">A</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(581,63)scale(0.75)"
+           id="g34">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">F</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(581,204)scale(0.75)"
+           id="g36">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">E</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(581,344)scale(0.75)"
+           id="g38">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">D</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(581,485)scale(0.75)"
+           id="g40">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">C</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(581,625)scale(0.75)"
+           id="g42">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">B</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(581,765)scale(0.75)"
+           id="g44">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">A</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(74,1)scale(0.75)"
+           id="g46">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">1</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(223,1)scale(0.75)"
+           id="g48">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">2</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(372,1)scale(0.75)"
+           id="g50">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">3</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(521,1)scale(0.75)"
+           id="g52">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">4</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(74,828)scale(0.75)"
+           id="g54">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">1</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(223,828)scale(0.75)"
+           id="g56">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">2</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(372,828)scale(0.75)"
+           id="g58">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">3</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(521,828)scale(0.75)"
+           id="g60">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="20"
+             height="18">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="display:block;width:20px;height:20px;font-size:16px;text-align:center">4</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <path
+           d="M 328.5 719.25 L 580.5 719.25 L 580.5 827.25 L 328.5 827.25 Z"
+           fill="#fff"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           pointer-events="all"
+           id="path62" />
+        <path
+           d="M 328.5 755.25 L 580.5 755.25 M 328.5 791.25 L 580.5 791.25 M 496.5 755.25 L 496.5 791.25"
+           fill="none"
+           stroke="white"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="path64" />
+        <path
+           d="M 328.5 755.25 L 580.5 755.25 M 328.5 791.25 L 580.5 791.25 M 496.5 755.25 L 496.5 791.25"
+           fill="none"
+           stroke="#000000"
+           stroke-miterlimit="10"
+           id="path66" />
+        <g
+           transform="translate(339,722)scale(0.75)"
+           id="g68">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="57"
+             height="11">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="font-size:8px">Company Name</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(339,757)scale(0.75)"
+           id="g70">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="48"
+             height="11">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="font-size:8px">Project Name</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(507,757)scale(0.75)"
+           id="g72">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="17"
+             height="11">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="font-size:8px">Date</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(339,793)scale(0.75)"
+           id="g74">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="38"
+             height="11">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:span
+                   style="font-size:8px">Sheet Title</xhtml:span>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(350,739)scale(0.75)"
+           id="g76">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="45"
+             height="11">
+            <div
+               style="display: inline-block; font-size: 11px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 46px; white-space: normal; overflow-wrap: normal;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:strong
+                   style="font-size:8px">Guillaume F.</xhtml:strong>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(350,775)scale(0.75)"
+           id="g78">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="55"
+             height="11">
+            <div
+               style="display: inline-block; font-size: 11px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 56px; white-space: normal; overflow-wrap: normal;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:strong
+                   style="font-size:8px">CGBALANCER</xhtml:strong>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(518,775)scale(0.75)"
+           id="g80">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="36"
+             height="11">
+            <div
+               style="display:inline-block;font-size:11px;font-family:Arial,Helvetica;color:#000000;line-height:1.2;vertical-align:top;white-space:nowrap;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:strong
+                   style="font-size:8px">8/28/2019</xhtml:strong>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+        <g
+           transform="translate(350,805)scale(0.75)"
+           id="g82">
+          <foreignObject
+             style="overflow:visible;"
+             pointer-events="all"
+             width="5"
+             height="11">
+            <div
+               style="display: inline-block; font-size: 11px; font-family: Arial, Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; width: 6px; white-space: normal; overflow-wrap: normal;">
+              <xhtml:div
+                 style="display:inline-block;text-align:inherit;text-decoration:inherit;">
+                <xhtml:strong
+                   style="font-size:8px">0</xhtml:strong>
+              </xhtml:div>
+            </div>
+          </foreignObject>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g88">
+        <rect
+           x="135.27"
+           y="352.66"
+           width="97.5"
+           height="82.5"
+           fill="#efd3d2"
+           stroke="#000000"
+           pointer-events="all"
+           id="rect86" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g94">
+        <rect
+           x="149.52"
+           y="449.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect90" />
+        <path
+           d="M 150.27 435.91 L 150.27 449.41"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path92" />
+      </g>
+      <g
+         style=""
+         id="g100">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g98">
+          <text
+             x="149.77"
+             y="430.41"
+             id="text96">GND</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g106">
+        <rect
+           x="147.27"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect102" />
+        <rect
+           x="147.27"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect104" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g112">
+        <rect
+           x="172.02"
+           y="449.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect108" />
+        <path
+           d="M 172.77 435.91 L 172.77 449.41"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path110" />
+      </g>
+      <g
+         style=""
+         id="g118">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g116">
+          <text
+             x="172.27"
+             y="430.41"
+             id="text114">TX</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g124">
+        <rect
+           x="169.77"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect120" />
+        <rect
+           x="169.77"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect122" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g130">
+        <rect
+           x="194.52"
+           y="449.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect126" />
+        <path
+           d="M 195.27 435.91 L 195.27 449.41"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path128" />
+      </g>
+      <g
+         style=""
+         id="g136">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g134">
+          <text
+             x="194.77"
+             y="430.41"
+             id="text132">RX</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g142">
+        <rect
+           x="192.27"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect138" />
+        <rect
+           x="192.27"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect140" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g148">
+        <rect
+           x="217.02"
+           y="449.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect144" />
+        <path
+           d="M 217.77 435.91 L 217.77 449.41"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path146" />
+      </g>
+      <g
+         style=""
+         id="g154">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g152">
+          <text
+             x="217.27"
+             y="430.41"
+             id="text150">VCC</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g160">
+        <rect
+           x="214.77"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect156" />
+        <rect
+           x="214.77"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect158" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g166">
+        <rect
+           x="172.02"
+           y="336.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect162" />
+        <path
+           d="M 172.77 338.41 L 172.77 351.91"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path164" />
+      </g>
+      <g
+         style=""
+         id="g172">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g170">
+          <text
+             x="172.27"
+             y="362.41"
+             id="text168">A+</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g178">
+        <rect
+           x="169.77"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect174" />
+        <rect
+           x="169.77"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect176" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g184">
+        <rect
+           x="194.52"
+           y="336.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect180" />
+        <path
+           d="M 195.27 338.41 L 195.27 351.91"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path182" />
+      </g>
+      <g
+         style=""
+         id="g190">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g188">
+          <text
+             x="194.77"
+             y="362.41"
+             id="text186">A-</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g196">
+        <rect
+           x="192.27"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect192" />
+        <rect
+           x="192.27"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect194" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g202">
+        <rect
+           x="149.52"
+           y="336.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect198" />
+        <path
+           d="M 150.27 338.41 L 150.27 351.91"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path200" />
+      </g>
+      <g
+         style=""
+         id="g208">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g206">
+          <text
+             x="149.77"
+             y="362.41"
+             id="text204">GND</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g214">
+        <rect
+           x="147.27"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect210" />
+        <rect
+           x="147.27"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect212" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g220">
+        <rect
+           x="217.02"
+           y="336.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect216" />
+        <path
+           d="M 217.77 338.41 L 217.77 351.91"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path218" />
+      </g>
+      <g
+         style=""
+         id="g226">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g224">
+          <text
+             x="217.27"
+             y="362.41"
+             id="text222">Out+</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g232">
+        <rect
+           x="214.77"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect228" />
+        <rect
+           x="214.77"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect230" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g236">
+        <rect
+           x="165.27"
+           y="390.16"
+           width="28.5"
+           height="10.5"
+           fill-opacity="0"
+           fill="#dae2f2"
+           stroke="none"
+           pointer-events="all"
+           id="rect234" />
+      </g>
+      <g
+         style=""
+         id="g242">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g240">
+          <text
+             x="179.52"
+             y="398.41"
+             id="text238">HX711</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g246">
+        <rect
+           x="105.27"
+           y="390.16"
+           width="21.75"
+           height="9.75"
+           fill-opacity="0"
+           fill="#dae2f2"
+           stroke="none"
+           pointer-events="all"
+           id="rect244" />
+      </g>
+      <g
+         style=""
+         id="g252">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g250">
+          <text
+             x="116.14"
+             y="398.04"
+             id="text248">LCM1</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g256">
+        <rect
+           x="277.77"
+           y="37.66"
+           width="37.5"
+           height="217.71"
+           fill="url(https://www.schematics.com/editor/cgbalancer-153191/#mx-gradient-a3a3a3-1-a3a3a3-1-s-1)"
+           stroke="#000000"
+           pointer-events="all"
+           id="rect254" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g260">
+        <rect
+           x="277.77"
+           y="67.66"
+           width="36.75"
+           height="10.5"
+           fill-opacity="0"
+           fill="#dae2f2"
+           stroke="none"
+           pointer-events="all"
+           id="rect258" />
+      </g>
+      <g
+         style=""
+         id="g266">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g264">
+          <text
+             x="296.14"
+             y="75.91"
+             id="text262">YZC-133</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g272">
+        <rect
+           x="262.02"
+           y="186.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect268" />
+        <path
+           d="M 263.52 187.66 L 277.02 187.66"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path270" />
+      </g>
+      <g
+         style=""
+         id="g278">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           font-size="9px"
+           id="g276">
+          <text
+             x="279.27"
+             y="190.16"
+             id="text274">White</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g284">
+        <rect
+           x="259.77"
+           y="184.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect280" />
+        <rect
+           x="259.77"
+           y="184.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect282" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g290">
+        <rect
+           x="262.02"
+           y="164.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect286" />
+        <path
+           d="M 263.52 165.16 L 277.02 165.16"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path288" />
+      </g>
+      <g
+         style=""
+         id="g296">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           font-size="9px"
+           id="g294">
+          <text
+             x="279.27"
+             y="167.66"
+             id="text292">Green</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g302">
+        <rect
+           x="259.77"
+           y="162.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect298" />
+        <rect
+           x="259.77"
+           y="162.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect300" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g308">
+        <rect
+           x="262.02"
+           y="141.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect304" />
+        <path
+           d="M 263.52 142.66 L 277.02 142.66"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path306" />
+      </g>
+      <g
+         style=""
+         id="g314">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           font-size="9px"
+           id="g312">
+          <text
+             x="279.27"
+             y="145.16"
+             id="text310">Black</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g320">
+        <rect
+           x="259.77"
+           y="139.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect316" />
+        <rect
+           x="259.77"
+           y="139.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect318" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g326">
+        <rect
+           x="262.02"
+           y="209.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect322" />
+        <path
+           d="M 263.52 210.16 L 277.02 210.16"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path324" />
+      </g>
+      <g
+         style=""
+         id="g332">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           font-size="9px"
+           id="g330">
+          <text
+             x="279.27"
+             y="212.66"
+             id="text328">Red</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g338">
+        <rect
+           x="259.77"
+           y="207.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect334" />
+        <rect
+           x="259.77"
+           y="207.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect336" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g342">
+        <rect
+           x="322.88"
+           y="232.88"
+           width="17.25"
+           height="10.5"
+           fill-opacity="0"
+           fill="#dae2f2"
+           stroke="none"
+           pointer-events="all"
+           id="rect340" />
+      </g>
+      <g
+         style=""
+         id="g348">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g346">
+          <text
+             x="331.5"
+             y="241.13"
+             id="text344">LC1</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g352">
+        <rect
+           x="285.38"
+           y="82.88"
+           width="15"
+           height="10.5"
+           fill-opacity="0"
+           fill="#dae2f2"
+           stroke="none"
+           pointer-events="all"
+           id="rect350" />
+      </g>
+      <g
+         style=""
+         id="g358">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g356">
+          <text
+             x="292.88"
+             y="91.13"
+             id="text354">3kg</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g364">
+        <path
+           d="M 262.77 210.16 L 217.77 210.16 L 217.77 337.66"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path360" />
+        <path
+           d="M 262.77 210.16 L 217.77 210.16 L 217.77 337.66"
+           fill="none"
+           stroke="#ff0000"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path362" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g370">
+        <path
+           d="M 262.77 187.66 L 195.27 187.66 L 195.27 337.66"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path366" />
+        <path
+           d="M 262.77 187.66 L 195.27 187.66 L 195.27 337.66"
+           fill="none"
+           stroke="#e5e5e5"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path368" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g376">
+        <path
+           d="M 262.77 165.16 L 172.77 165.16 L 172.77 337.66"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path372" />
+        <path
+           d="M 262.77 165.16 L 172.77 165.16 L 172.77 337.66"
+           fill="none"
+           stroke="#00ff00"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path374" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g382">
+        <path
+           d="M 262.77 142.66 L 150.27 142.66 L 150.27 337.66"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path378" />
+        <path
+           d="M 262.77 142.66 L 150.27 142.66 L 150.27 337.66"
+           fill="none"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path380" />
+      </g>
+      <g
+         style="visibility: visible; cursor: move;"
+         id="g386">
+        <rect
+           x="277.77"
+           y="270.16"
+           width="37.5"
+           height="225.21"
+           fill="url(https://www.schematics.com/editor/cgbalancer-153191/#mx-gradient-a3a3a3-1-a3a3a3-1-s-1)"
+           stroke="#000000"
+           pointer-events="all"
+           id="rect384" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g392">
+        <rect
+           x="329.52"
+           y="336.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect388" />
+        <path
+           d="M 316.02 337.66 L 329.52 337.66"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path390" />
+      </g>
+      <g
+         style=""
+         id="g398">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="end"
+           font-size="9px"
+           id="g396">
+          <text
+             x="312.77"
+             y="340.16"
+             id="text394">Red</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g404">
+        <rect
+           x="327.27"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect400" />
+        <rect
+           x="327.27"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect402" />
+      </g>
+      <g
+         style="visibility: visible; cursor: move;"
+         id="g410">
+        <rect
+           x="329.52"
+           y="359.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect406" />
+        <path
+           d="M 316.02 360.16 L 329.52 360.16"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path408" />
+      </g>
+      <g
+         style="cursor: move;"
+         id="g416">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="end"
+           font-size="9px"
+           id="g414">
+          <text
+             x="312.77"
+             y="362.66"
+             id="text412">White</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g422">
+        <rect
+           x="327.27"
+           y="357.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect418" />
+        <rect
+           x="327.27"
+           y="357.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect420" />
+      </g>
+      <g
+         style="visibility: visible; cursor: move;"
+         id="g428">
+        <rect
+           x="329.52"
+           y="381.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect424" />
+        <path
+           d="M 316.02 382.66 L 329.52 382.66"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path426" />
+      </g>
+      <g
+         style="cursor: move;"
+         id="g434">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="end"
+           font-size="9px"
+           id="g432">
+          <text
+             x="312.77"
+             y="385.16"
+             id="text430">Green</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g440">
+        <rect
+           x="327.27"
+           y="379.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect436" />
+        <rect
+           x="327.27"
+           y="379.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect438" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g446">
+        <rect
+           x="329.52"
+           y="404.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect442" />
+        <path
+           d="M 316.02 405.16 L 329.52 405.16"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path444" />
+      </g>
+      <g
+         style=""
+         id="g452">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="end"
+           font-size="9px"
+           id="g450">
+          <text
+             x="312.77"
+             y="407.66"
+             id="text448">Black</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g458">
+        <rect
+           x="327.27"
+           y="402.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect454" />
+        <rect
+           x="327.27"
+           y="402.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect456" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g462">
+        <rect
+           x="322.88"
+           y="472.88"
+           width="15"
+           height="9.75"
+           fill-opacity="0"
+           fill="#dae2f2"
+           stroke="none"
+           pointer-events="all"
+           id="rect460" />
+      </g>
+      <g
+         style=""
+         id="g468">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g466">
+          <text
+             x="330.38"
+             y="480.75"
+             id="text464">LC2</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g472">
+        <rect
+           x="277.88"
+           y="427.88"
+           width="33"
+           height="9.75"
+           fill-opacity="0"
+           fill="#dae2f2"
+           stroke="none"
+           pointer-events="all"
+           id="rect470" />
+      </g>
+      <g
+         style=""
+         id="g478">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g476">
+          <text
+             x="294.38"
+             y="435.75"
+             id="text474">YZC-133</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g482">
+        <rect
+           x="285.38"
+           y="442.88"
+           width="15"
+           height="10.5"
+           fill-opacity="0"
+           fill="#dae2f2"
+           stroke="none"
+           pointer-events="all"
+           id="rect480" />
+      </g>
+      <g
+         style=""
+         id="g488">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g486">
+          <text
+             x="292.88"
+             y="451.13"
+             id="text484">2kg</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible; cursor: move;"
+         id="g492">
+        <rect
+           x="360.27"
+           y="352.66"
+           width="97.5"
+           height="82.5"
+           fill="#efd3d2"
+           stroke="#000000"
+           pointer-events="all"
+           id="rect490" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g498">
+        <rect
+           x="374.52"
+           y="449.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect494" />
+        <path
+           d="M 375.27 435.91 L 375.27 449.41"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path496" />
+      </g>
+      <g
+         style=""
+         id="g504">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g502">
+          <text
+             x="374.77"
+             y="430.41"
+             id="text500">GND</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g510">
+        <rect
+           x="372.27"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect506" />
+        <rect
+           x="372.27"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect508" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g516">
+        <rect
+           x="397.02"
+           y="449.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect512" />
+        <path
+           d="M 397.77 435.91 L 397.77 449.41"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path514" />
+      </g>
+      <g
+         style=""
+         id="g522">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g520">
+          <text
+             x="397.27"
+             y="430.41"
+             id="text518">TX</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g528">
+        <rect
+           x="394.77"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect524" />
+        <rect
+           x="394.77"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect526" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g534">
+        <rect
+           x="419.52"
+           y="449.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect530" />
+        <path
+           d="M 420.27 435.91 L 420.27 449.41"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path532" />
+      </g>
+      <g
+         style=""
+         id="g540">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g538">
+          <text
+             x="419.77"
+             y="430.41"
+             id="text536">RX</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g546">
+        <rect
+           x="417.27"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect542" />
+        <rect
+           x="417.27"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect544" />
+      </g>
+      <g
+         style="visibility: visible; cursor: move;"
+         id="g552">
+        <rect
+           x="442.02"
+           y="449.41"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect548" />
+        <path
+           d="M 442.77 435.91 L 442.77 449.41"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path550" />
+      </g>
+      <g
+         style="cursor: move;"
+         id="g558">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g556">
+          <text
+             x="442.27"
+             y="430.41"
+             id="text554">VCC</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g564">
+        <rect
+           x="439.77"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect560" />
+        <rect
+           x="439.77"
+           y="447.16"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect562" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g570">
+        <rect
+           x="397.02"
+           y="336.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect566" />
+        <path
+           d="M 397.77 338.41 L 397.77 351.91"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path568" />
+      </g>
+      <g
+         style=""
+         id="g576">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g574">
+          <text
+             x="397.27"
+             y="362.41"
+             id="text572">A+</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g582">
+        <rect
+           x="394.77"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect578" />
+        <rect
+           x="394.77"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect580" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g588">
+        <rect
+           x="419.52"
+           y="336.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect584" />
+        <path
+           d="M 420.27 338.41 L 420.27 351.91"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path586" />
+      </g>
+      <g
+         style=""
+         id="g594">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g592">
+          <text
+             x="419.77"
+             y="362.41"
+             id="text590">A-</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g600">
+        <rect
+           x="417.27"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect596" />
+        <rect
+           x="417.27"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect598" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g606">
+        <rect
+           x="374.52"
+           y="336.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect602" />
+        <path
+           d="M 375.27 338.41 L 375.27 351.91"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path604" />
+      </g>
+      <g
+         style=""
+         id="g612">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g610">
+          <text
+             x="374.77"
+             y="362.41"
+             id="text608">GND</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g618">
+        <rect
+           x="372.27"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect614" />
+        <rect
+           x="372.27"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect616" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g624">
+        <rect
+           x="442.02"
+           y="336.91"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect620" />
+        <path
+           d="M 442.77 338.41 L 442.77 351.91"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path622" />
+      </g>
+      <g
+         style=""
+         id="g630">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g628">
+          <text
+             x="442.27"
+             y="362.41"
+             id="text626">Out+</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g636">
+        <rect
+           x="439.77"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect632" />
+        <rect
+           x="439.77"
+           y="334.66"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect634" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g640">
+        <rect
+           x="390.27"
+           y="390.16"
+           width="24.75"
+           height="9.75"
+           fill-opacity="0"
+           fill="#dae2f2"
+           stroke="none"
+           pointer-events="all"
+           id="rect638" />
+      </g>
+      <g
+         style=""
+         id="g646">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g644">
+          <text
+             x="402.64"
+             y="398.04"
+             id="text642">HX711</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g650">
+        <rect
+           x="465.27"
+           y="390.16"
+           width="21.75"
+           height="9.75"
+           fill-opacity="0"
+           fill="#dae2f2"
+           stroke="none"
+           pointer-events="all"
+           id="rect648" />
+      </g>
+      <g
+         style=""
+         id="g656">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g654">
+          <text
+             x="476.14"
+             y="398.04"
+             id="text652">LCM2</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g662">
+        <path
+           d="M 330.27 337.66 L 330.27 337.66 L 330.27 315.16 L 442.77 315.16 L 442.77 337.66"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path658" />
+        <path
+           d="M 330.27 337.66 L 330.27 337.66 L 330.27 315.16 L 442.77 315.16 L 442.77 337.66"
+           fill="none"
+           stroke="#ff0000"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path660" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g668">
+        <path
+           d="M 330.27 360.16 L 337.77 360.16 L 337.77 322.66 L 420.27 322.66 L 420.27 337.66"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path664" />
+        <path
+           d="M 330.27 360.16 L 337.77 360.16 L 337.77 322.66 L 420.27 322.66 L 420.27 337.66"
+           fill="none"
+           stroke="#e5e5e5"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path666" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g674">
+        <path
+           d="M 330.27 382.66 L 345.27 382.66 L 345.27 330.16 L 397.77 330.16 L 397.77 337.66"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path670" />
+        <path
+           d="M 330.27 382.66 L 345.27 382.66 L 345.27 330.16 L 397.77 330.16 L 397.77 337.66"
+           fill="none"
+           stroke="#00ff00"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path672" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g680">
+        <path
+           d="M 330.27 405.16 L 352.77 405.16 L 352.77 337.66 L 375.27 337.66 L 375.27 337.66"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path676" />
+        <path
+           d="M 330.27 405.16 L 352.77 405.16 L 352.77 337.66 L 375.27 337.66 L 375.27 337.66"
+           fill="none"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path678" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g684">
+        <rect
+           x="202.88"
+           y="592.77"
+           width="210"
+           height="105.11"
+           rx="15.77"
+           ry="15.77"
+           fill="#efd3d2"
+           stroke="#000000"
+           pointer-events="all"
+           id="rect682" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g690">
+        <rect
+           x="232.13"
+           y="577.02"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect686" />
+        <path
+           d="M 232.87 578.52 L 232.88 592.02"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path688" />
+      </g>
+      <g
+         style=""
+         id="g696">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g694">
+          <text
+             x="232.38"
+             y="602.52"
+             id="text692">GND</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g702">
+        <rect
+           x="229.88"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect698" />
+        <rect
+           x="229.88"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect700" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g708">
+        <rect
+           x="254.63"
+           y="577.02"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect704" />
+        <path
+           d="M 255.37 578.52 L 255.38 592.02"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path706" />
+      </g>
+      <g
+         style=""
+         id="g714">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g712">
+          <text
+             x="254.88"
+             y="602.52"
+             id="text710">3.3</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g720">
+        <rect
+           x="252.38"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect716" />
+        <rect
+           x="252.38"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect718" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g726">
+        <rect
+           x="382.13"
+           y="577.02"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect722" />
+        <path
+           d="M 382.87 578.52 L 382.88 592.02"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path724" />
+      </g>
+      <g
+         style=""
+         id="g732">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g730">
+          <text
+             x="382.38"
+             y="602.52"
+             id="text728">21</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g738">
+        <rect
+           x="379.88"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect734" />
+        <rect
+           x="379.88"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect736" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g744">
+        <rect
+           x="359.63"
+           y="577.02"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect740" />
+        <path
+           d="M 360.37 578.52 L 360.38 592.02"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path742" />
+      </g>
+      <g
+         style=""
+         id="g750">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g748">
+          <text
+             x="359.88"
+             y="602.52"
+             id="text746">22</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g756">
+        <rect
+           x="357.38"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect752" />
+        <rect
+           x="357.38"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect754" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g762">
+        <rect
+           x="337.13"
+           y="577.02"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect758" />
+        <path
+           d="M 337.87 578.52 L 337.88 592.02"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path760" />
+      </g>
+      <g
+         style=""
+         id="g768">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g766">
+          <text
+             x="337.38"
+             y="602.52"
+             id="text764">19</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g774">
+        <rect
+           x="334.88"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect770" />
+        <rect
+           x="334.88"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect772" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g780">
+        <rect
+           x="314.63"
+           y="577.02"
+           width="1.5"
+           height="1.5"
+           fill="#000000"
+           stroke="none"
+           pointer-events="all"
+           id="rect776" />
+        <path
+           d="M 315.37 578.52 L 315.38 592.02"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-linecap="square"
+           stroke-miterlimit="10"
+           id="path778" />
+      </g>
+      <g
+         style=""
+         id="g786">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g784">
+          <text
+             x="314.88"
+             y="602.52"
+             id="text782">23</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g792">
+        <rect
+           x="312.38"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="white"
+           pointer-events="stroke"
+           visibility="hidden"
+           stroke-width="9"
+           id="rect788" />
+        <rect
+           x="312.38"
+           y="574.77"
+           width="6"
+           height="6"
+           fill="none"
+           stroke="none"
+           pointer-events="all"
+           id="rect790" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g796">
+        <rect
+           x="240.38"
+           y="645.38"
+           width="138.75"
+           height="9.75"
+           fill-opacity="0"
+           fill="#dae2f2"
+           stroke="none"
+           pointer-events="all"
+           id="rect794" />
+      </g>
+      <g
+         style=""
+         id="g802">
+        <g
+           fill="#000000"
+           font-family="Arial,Helvetica"
+           font-weight="bold"
+           text-anchor="middle"
+           font-size="9px"
+           id="g800">
+          <text
+             x="309.75"
+             y="653.25"
+             id="text798">ESP32 OLED V2.0 TTGO OLED WIFI</text>
+        </g>
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g808">
+        <path
+           d="M 375.27 450.16 L 375.27 510.38 L 232.88 510.38 L 232.88 577.77"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path804" />
+        <path
+           d="M 375.27 450.16 L 375.27 510.38 L 232.88 510.38 L 232.88 577.77"
+           fill="none"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path806" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g814">
+        <path
+           d="M 217.77 450.16 L 217.77 502.88 L 255.38 502.88 L 255.38 577.77"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path810" />
+        <path
+           d="M 217.77 450.16 L 217.77 502.88 L 255.38 502.88 L 255.38 577.77"
+           fill="none"
+           stroke="#ff0000"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path812" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g822">
+        <path
+           d="M 442.77 450.16 L 442.77 502.88 L 256.88 502.88"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path816" />
+        <path
+           d="M 442.77 450.16 L 442.77 502.88 L 256.88 502.88"
+           fill="none"
+           stroke="#ff0000"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path818" />
+        <ellipse
+           cx="255"
+           cy="503"
+           rx="1.5"
+           ry="1.5"
+           fill="#ff0000"
+           stroke="#ff0000"
+           stroke-width="1.5"
+           pointer-events="all"
+           id="ellipse820" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g828">
+        <path
+           d="M 195.27 450.16 L 195.27 517.88 L 382.88 517.88 L 382.88 577.77"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path824" />
+        <path
+           d="M 195.27 450.16 L 195.27 517.88 L 382.88 517.88 L 382.88 577.77"
+           fill="none"
+           stroke="#007fff"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path826" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g834">
+        <path
+           d="M 172.77 450.16 L 172.77 525.38 L 360.38 525.38 L 360.38 577.77"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path830" />
+        <path
+           d="M 172.77 450.16 L 172.77 525.38 L 360.38 525.38 L 360.38 577.77"
+           fill="none"
+           stroke="#7f0000"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path832" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g842">
+        <path
+           d="M 150.27 450.16 L 150.27 510.38 L 231.38 510.38"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path836" />
+        <path
+           d="M 150.27 450.16 L 150.27 510.38 L 231.38 510.38"
+           fill="none"
+           stroke="#000000"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path838" />
+        <ellipse
+           cx="233"
+           cy="510"
+           rx="1.5"
+           ry="1.5"
+           fill="#000000"
+           stroke="#000000"
+           stroke-width="1.5"
+           pointer-events="all"
+           id="ellipse840" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g848">
+        <path
+           d="M 420.27 450.16 L 420.27 540.38 L 337.88 540.38 L 337.88 577.77"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path844" />
+        <path
+           d="M 420.27 450.16 L 420.27 540.38 L 337.88 540.38 L 337.88 577.77"
+           fill="none"
+           stroke="#ff7f00"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path846" />
+      </g>
+      <g
+         style="visibility: visible;"
+         id="g854">
+        <path
+           d="M 397.77 450.16 L 397.77 532.88 L 315.38 532.88 L 315.38 577.77"
+           fill="none"
+           stroke="white"
+           stroke-width="9.5"
+           stroke-miterlimit="10"
+           pointer-events="stroke"
+           visibility="hidden"
+           id="path850" />
+        <path
+           d="M 397.77 450.16 L 397.77 532.88 L 315.38 532.88 L 315.38 577.77"
+           fill="none"
+           stroke="#00ff00"
+           stroke-width="1.5"
+           stroke-miterlimit="10"
+           id="path852" />
+      </g>
+    </g>
+    <g
+       id="g858" />
+  </g>
+  <linearGradient
+     x1="0%"
+     y1="0%"
+     x2="0%"
+     y2="100%"
+     id="mx-gradient-a3a3a3-1-a3a3a3-1-s-1">
+    <stop
+       offset="0%"
+       style="stop-color:#a3a3a3"
+       id="stop862" />
+    <stop
+       offset="100%"
+       style="stop-color:#a3a3a3"
+       id="stop864" />
+  </linearGradient>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:13.33333333px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;"
+     x="341.12924"
+     y="815.31677"
+     id="text4580"><tspan
+       sodipodi:role="line"
+       id="tspan4578"
+       x="341.12924"
+       y="815.31677">Guillaume F.</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666603px;line-height:125%;font-family:'Droid Sans Mono';-inkscape-font-specification:'Droid Sans Mono';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="335.77118"
+     y="746.55511"
+     id="text4584"><tspan
+       sodipodi:role="line"
+       id="tspan4582"
+       x="335.77118"
+       y="746.55511">CGBalancer Wifi</tspan></text>
+</svg>
