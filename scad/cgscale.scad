@@ -2,15 +2,19 @@
 /*
  * Work on:
  *    1 - base
- *    2 - support
- *    3 - rod support
- *    4 - display all
+ *    2 - support			( x2 )
+ *    3 - rod support			( x2 )
+ *    4 - leadingEdge rod		( x2 )
+ *    5 - case top
+ *    6 - case bottom
+ *
+ *    9 - display all
  */
 WORK_ON = 4;
 
 /* Scale sensor */
-ss_wh	= 12.7;	/* x/z */
-ss_l	= 80;	/* y */
+ss_wh		= 12.7;	/* x/z */
+ss_l		= 80;	/* y */
 ss_hole_int_dia	= 5;	/* diameter */
 ss_hole_ext_dia	= 4;	/* diameter */
 ss_hole_1 	= 5;
@@ -25,6 +29,12 @@ ssm_h	= 5;
 board_w = 50;
 board_l	= 26;
 board_h	= 5;
+board_oled_w = 30;
+board_oled_l = 18;
+board_oled_w_pos = 4;
+board_clearance = 1;
+board_case_thickness = 1; /* with 1 more of the minkowski sphere */
+board_case_screw_dia = 2.2;
 
 /* base */
 base_w	= 150;	/* width: x */
@@ -178,7 +188,6 @@ module _support_block( w, l, h ) {
 			rotate([90,0,0])
 			linear_extrude(height=l,center=true)
 			polygon(points = [[0,0],[w/4,h],[w*3/4,h],[w,0]]);
-		//cube([ w, l, h], center=true);
 		sphere(1);
 	}
 }
@@ -222,6 +231,85 @@ module rod_support() {
 	}
 }
 
+module le_rod_support() {
+	hole_dia = ps_st_hole_dia+0.3;
+	difference() {
+		minkowski() {
+			cube([ 80, ss_wh, ps_st_h ], center=true);
+			sphere(1);
+		}
+		/* full hole : thight */
+		translate([-35,0,0])
+			cylinder(r=hole_dia/2 - 0.1, h=1000, center=true);
+		/* rod LE */
+		for(x = [ -25 : 10 : 80 ]) {
+			translate([x,0,ps_st_h/2 - ps_st_h/8])
+				cylinder(r=hole_dia/2, h=ps_st_h, center=true);
+		}
+	}
+}
+
+module _case_hole() {
+	h = board_h + board_clearance*4 + board_case_thickness*2 + 2; /* +2 for the minkowski sphere */
+	translate([0,0,board_case_thickness - 1])
+		translate([0,0,h/2 + board_case_thickness*2])
+		cylinder(r=board_case_screw_dia/2 + 0.2, h=h + 1, center=true);
+}
+module _case_screw() {
+	h = board_h + board_clearance*4 + board_case_thickness*2 + 2; /* +2 for the minkowski sphere */
+	translate([0,0,board_case_thickness - 1])
+		difference() {
+			cylinder(r=board_case_screw_dia,
+					h=h - board_case_thickness, center=true);
+			cylinder(r=board_case_screw_dia/2,
+					h=h + 1, center=true);
+		}
+}
+module _case() {
+	difference() {
+		union() {
+			difference() {
+				minkowski() {
+					cube([ board_w + board_clearance*2 + board_case_screw_dia*6 + board_case_thickness*2,
+							board_l + board_clearance*2 + board_case_thickness*2,
+							board_h + board_clearance*4 + board_case_thickness*2 ],
+							center=true);
+					sphere(1);
+				}
+				cube([ board_w + board_clearance*2 + board_case_screw_dia*6,
+						board_l + board_clearance*2,
+						board_h + board_clearance*4 ],
+						center=true);
+				translate([ (board_w - board_oled_w)/2 - board_oled_w_pos, 0, board_h + board_clearance*4 - board_case_thickness*2 ])
+					cube([ board_oled_w, board_oled_l, board_case_thickness*6 ], center=true);
+			}
+			translate([ -board_w/2 - board_case_screw_dia*3, board_l/2, 0 ]) { _case_screw(); }
+			translate([ board_w/2 + board_case_screw_dia*3, board_l/2, 0 ]) { _case_screw(); }
+			translate([ board_w/2 + board_case_screw_dia*3, -board_l/2, 0 ]) { _case_screw(); }
+			translate([ -board_w/2 - board_case_screw_dia*3, -board_l/2, 0 ]) { _case_screw(); }
+		}
+		translate([ -board_w/2 - board_case_screw_dia*3, board_l/2, 0 ]) { _case_hole(); }
+		translate([ board_w/2 + board_case_screw_dia*3, board_l/2, 0 ]) { _case_hole(); }
+		translate([ board_w/2 + board_case_screw_dia*3, -board_l/2, 0 ]) { _case_hole(); }
+		translate([ -board_w/2 - board_case_screw_dia*3, -board_l/2, 0 ]) { _case_hole(); }
+	}
+}
+
+module case_bottom() {
+	difference() {
+		_case();
+		translate([0,0,100 + (board_h + board_clearance*4)/2 - 0.02])
+			cube([board_w*2,board_w*2,200], center=true);
+	}
+}
+module case_top() {
+	difference() {
+		_case();
+		translate([0,0, -100 + (board_h + board_clearance*4)/2])
+			cube([board_w*2,board_w*2,200], center=true);
+	}
+}
+
 
 
 /*
@@ -242,11 +330,30 @@ if (WORK_ON == 3) {
 	rod_support();
 }
 
+/*
+ * LE Support
+ */
+if (WORK_ON == 4) {
+	le_rod_support();
+}
+
+/*
+ * BOARD CASE (not mandatory)
+ */
+if (WORK_ON == 5) {
+	/* TOP */
+	case_top();
+}
+if (WORK_ON == 6) {
+	/* BOTTOM */
+	case_bottom();
+}
+
 
 /*
  * Display All
  */
-if (WORK_ON == 4) {
+if (WORK_ON == 9) {
 	color("SteelBlue") {
 		base();
 	}
@@ -263,5 +370,11 @@ if (WORK_ON == 4) {
 			rod_support();
 		translate([ base_w/2, 10 + ss_l*3/2, base_root_h + base_ss_clearance_h + ss_wh ])
 			rod_support();
+	}
+	color("Green") {
+		translate([ base_w/2, -base_l/2, 0 ]) {
+			case_bottom();
+			case_top();
+		}
 	}
 }
