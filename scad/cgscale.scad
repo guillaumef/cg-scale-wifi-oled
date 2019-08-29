@@ -10,7 +10,7 @@
  *
  *    9 - display all
  */
-WORK_ON = 9;
+WORK_ON = 4;
 
 /* Scale sensor */
 ss_wh		= 12.7;	/* x/z */
