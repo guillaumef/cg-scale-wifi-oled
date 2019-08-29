@@ -10,7 +10,7 @@
  *
  *    9 - display all
  */
-WORK_ON = 4;
+WORK_ON = 9;
 
 /* Scale sensor */
 ss_wh		= 12.7;	/* x/z */
@@ -235,7 +235,7 @@ module le_rod_support() {
 	hole_dia = ps_st_hole_dia+0.3;
 	difference() {
 		minkowski() {
-			cube([ 80, ss_wh, ps_st_h ], center=true);
+			cube([ 80, ss_wh*2/3, ps_st_h ], center=true);
 			sphere(1);
 		}
 		/* full hole : thight */
@@ -370,6 +370,11 @@ if (WORK_ON == 9) {
 			rod_support();
 		translate([ base_w/2, 10 + ss_l*3/2, base_root_h + base_ss_clearance_h + ss_wh ])
 			rod_support();
+		translate([ base_w/2 - 30, 10 + ss_l*3/2 + 35, base_root_h + base_ss_clearance_h + ss_wh + 100 ])
+			rotate([0,0,90]) le_rod_support();
+		translate([ base_w/2 + 30, 10 + ss_l*3/2 + 35, base_root_h + base_ss_clearance_h + ss_wh + 100 ])
+			rotate([0,0,90]) le_rod_support();
+
 	}
 	color("Green") {
 		translate([ base_w/2, -base_l/2, 0 ]) {
