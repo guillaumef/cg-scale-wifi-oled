@@ -1,6 +1,6 @@
 # cg-scale-wifi-oled
 
-A fresh, completely refactored design based on the original and innovative Olkal cg-scale design.
+A fresh, completely refactored design and rewrote code highly inspired by the original and innovative Olkal cg-scale design.
 
 Features:
 
