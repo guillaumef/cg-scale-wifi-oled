@@ -13,7 +13,7 @@
  *
  *    9 - display all
  */
-WORK_ON = 9;
+WORK_ON = 3;
 
 /* Scale sensor */
 ss_wh		= 12.7;	/* x/z */
@@ -54,8 +54,9 @@ ps_l		= ss_l/2 + ps_l_ext;
 ps_lip_h	= 5;
 
 ps_st_l		= 150;
-ps_st_h		= 10;
-ps_st_hole_dia	= 3;
+ps_st_h		= 13;
+ps_st_hole_depth= 10;
+ps_st_hole_dia	= 3.4;	/* 0.4 added to fit the rod */
 
 $fn=100;
 
@@ -217,7 +218,7 @@ module plane_support() {
 }
 
 module rod_support() {
-	hole_dia = ps_st_hole_dia+0.3;
+	hole_dia = ps_st_hole_dia;
 	difference() {
 		rotate([0,0,90]) {
 			_support_block( ss_wh, ps_st_l, ps_st_h );
@@ -235,7 +236,7 @@ module rod_support() {
 }
 
 module le_rod_support() {
-	hole_dia = ps_st_hole_dia+0.3;
+	hole_dia = ps_st_hole_dia;
 	difference() {
 		minkowski() {
 			cube([ 80, ss_wh*2/3, ps_st_h ], center=true);
@@ -243,10 +244,10 @@ module le_rod_support() {
 		}
 		/* full hole : thight */
 		translate([-35,0,0])
-			cylinder(r=hole_dia/2 - 0.1, h=1000, center=true);
+			cylinder(r=hole_dia/2, h=1000, center=true);
 		/* rod LE */
 		for(x = [ -25 : 10 : 80 ]) {
-			translate([x,0,ps_st_h/2 - ps_st_h/8])
+			translate([x,0, ps_st_h/2 - ps_st_h/8])
 				cylinder(r=hole_dia/2, h=ps_st_h, center=true);
 		}
 	}
