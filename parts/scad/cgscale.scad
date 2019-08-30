@@ -1,5 +1,8 @@
-
 /*
+ * CG Scale
+ * Author: Guillaume F.
+ * https://github.com/guillaumef/cg-scale-wifi-oled
+ *
  * Work on:
  *    1 - base
  *    2 - support			( x2 )
@@ -10,7 +13,7 @@
  *
  *    9 - display all
  */
-WORK_ON = 4;
+WORK_ON = 9;
 
 /* Scale sensor */
 ss_wh		= 12.7;	/* x/z */
@@ -327,7 +330,8 @@ if (WORK_ON == 2) {
 }
 
 if (WORK_ON == 3) {
-	rod_support();
+	rotate([180,0,0]) /* for printing */
+		rod_support();
 }
 
 /*

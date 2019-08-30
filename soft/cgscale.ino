@@ -1,5 +1,8 @@
 // vim: set ft=c:
 /*
+ * CG Scale
+ * Author: Guillaume F.
+ * https://github.com/guillaumef/cg-scale-wifi-oled
  *
  * CG Scale w/ Oled w/ Wifi
  *
