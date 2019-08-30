@@ -18,8 +18,8 @@ WORK_ON = 9;
 /* Scale sensor */
 ss_wh		= 12.7;	/* x/z */
 ss_l		= 80;	/* y */
-ss_hole_int_dia	= 5;	/* diameter */
-ss_hole_ext_dia	= 4;	/* diameter */
+ss_hole_int_dia	= 5.4;	/* diameter + 0.4 to fit */
+ss_hole_ext_dia	= 4.4;	/* diameter + 0.4 to fit */
 ss_hole_1 	= 5;
 ss_hole_2 	= 20;
 
@@ -53,9 +53,10 @@ ps_l_pos	= 5;
 ps_l		= ss_l/2 + ps_l_ext;
 ps_lip_h	= 5;
 
-ps_st_l		= 150;
-ps_st_h		= 10;
-ps_st_hole_dia	= 3;
+ps_st_l		= 155;
+ps_st_h		= 13;
+ps_st_hole_depth= 10;
+ps_st_hole_dia	= 3.2;	/* 0.2 added to ease the fit - fast drilling in 3mm is mandatory anyway */
 
 $fn=100;
 
@@ -94,7 +95,7 @@ module base_ss_hole() {
 		translate([0,0,base_root_h]) {
 			cylinder(r=ss_hole_int_dia/2, h=base_root_h*2, center=true);
 		}
-		cylinder(r=ss_hole_int_dia, h=4, center=true);
+		cylinder(r=ss_hole_int_dia+2, h=5, center=true);
 	}
 }
 module base_holes() {
@@ -128,10 +129,10 @@ module base_cablesshole() {
 		translate([0,ref/2,2])
 		rotate([-90,0,0])
 		union() {
-			cylinder(r=2, h=ref, center=true);
-			translate([0,-ref/2+2,ref/2])
+			cylinder(r=2.5, h=ref, center=true);
+			translate([0,-ref/2+2.5,ref/2])
 				rotate([90,0,0])
-				cylinder(r=2, h=ref, center=true);
+				cylinder(r=2.5, h=ref, center=true);
 		}
 }
 module base_cablessholes() {
@@ -146,10 +147,10 @@ module base_cablessmhole() {
 	/* to tune... no complex geometry here - define our vertical hole position */
 	ref=80;
 	/* ssm hole to under the ss support */
-		translate([0,0,2])
+		translate([0,0,2.5])
 		rotate([-90,0,0])
 		union() {
-			cylinder(r=2, h=ref, center=true);
+			cylinder(r=2.5, h=ref, center=true);
 		}
 }
 module base_cablessmholes() {
@@ -178,7 +179,7 @@ module base() {
 module ps_ss_hole() {
 	union() {
 		translate([0,0,base_root_h]) {
-			cylinder(r=ss_hole_ext_dia/2+0.3, h=base_root_h*2, center=true);
+			cylinder(r=ss_hole_ext_dia/2, h=base_root_h*2, center=true);
 		}
 		translate([0,0,ss_hole_ext_dia/2])
 			cylinder(h=ss_hole_ext_dia+0.1, r1=ss_hole_ext_dia+0.1, r2=0, center=true);
@@ -217,25 +218,27 @@ module plane_support() {
 }
 
 module rod_support() {
-	hole_dia = ps_st_hole_dia+0.3;
+	hole_dia = ps_st_hole_dia;
 	difference() {
 		rotate([0,0,90]) {
 			_support_block( ss_wh, ps_st_l, ps_st_h );
+			_support_block( ss_wh*1.8, ss_wh+20, ps_st_h );
 		}
+		translate([0,0,-2])
 		rotate([0,180,0])
 			scale([1.03,1.03,1.03])
 			_support_block_all();
-		for(x = [ ss_wh+10 : 8 : ps_st_l/2 ]) {
-			translate([x,0,ps_st_h/2 - ps_st_h/8])
+		for(x = [ ss_wh+10 : 10 : ps_st_l/2 ]) {
+			translate([x,0,ps_st_h - ps_st_hole_depth])
 				cylinder(r=hole_dia/2, h=ps_st_h, center=true);
-			translate([-x,0,ps_st_h/2 - ps_st_h/8])
+			translate([-x,0,ps_st_h - ps_st_hole_depth])
 				cylinder(r=hole_dia/2, h=ps_st_h, center=true);
 		}
 	}
 }
 
 module le_rod_support() {
-	hole_dia = ps_st_hole_dia+0.3;
+	hole_dia = ps_st_hole_dia;
 	difference() {
 		minkowski() {
 			cube([ 80, ss_wh*2/3, ps_st_h ], center=true);
@@ -243,10 +246,10 @@ module le_rod_support() {
 		}
 		/* full hole : thight */
 		translate([-35,0,0])
-			cylinder(r=hole_dia/2 - 0.1, h=1000, center=true);
+			cylinder(r=hole_dia/2, h=1000, center=true);
 		/* rod LE */
 		for(x = [ -25 : 10 : 80 ]) {
-			translate([x,0,ps_st_h/2 - ps_st_h/8])
+			translate([x,0, ps_st_h - ps_st_hole_depth])
 				cylinder(r=hole_dia/2, h=ps_st_h, center=true);
 		}
 	}
@@ -303,6 +306,22 @@ module case_bottom() {
 		_case();
 		translate([0,0,100 + (board_h + board_clearance*4)/2 - 0.02])
 			cube([board_w*2,board_w*2,200], center=true);
+		/* air */
+		air_hole = 3;
+		for(x = [ -board_w/2 + air_hole  : (board_w - air_hole*2 - 0.01)/7 : board_w/2 - air_hole ])
+			for(y = [ -board_l/2 + air_hole: (board_l - air_hole*2 - 0.01)/4: board_l/2 - air_hole ])
+				translate([x,y,0])
+					cube([air_hole,air_hole,board_h*20], center=true); 
+		/* cabling */
+		cable_dia = 5;
+		translate([0,board_l/4,board_h/2])
+		rotate([0,90,0]) {
+			union() {
+				cylinder(r=cable_dia/2, h=board_w*2, center=true);
+				translate([-cable_dia/2,0,0])
+					cube([cable_dia,cable_dia,board_w*2],center=true);
+			}
+		}
 	}
 }
 module case_top() {
