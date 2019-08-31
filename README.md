@@ -2,8 +2,7 @@
 
 A fresh, completely refactored design and rewrote code highly inspired by the original and innovative Olkal cg-scale design.
 
-<img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/photo-folded.jpg" width="400" alt="CG Scale folded" />
-<img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/photo-assembly-full1.jpg" width="400" alt="CG Scale ready" />
+<img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/photo-folded.jpg" width="350" alt="CG Scale folded" /><img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/photo-assembly-full1.jpg" width="350" alt="CG Scale ready" />
 
 **Features**
 - recent ESP32 wifi-bluetooth-oled board, mainstream and low cost (sub $10)
@@ -25,3 +24,5 @@ The scale 3d parts are parametric and designed with openscad. You can edit the S
 - [x] Manual: [CG Scale Manual](documentation/manual.pdf)
 
 <img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/photo-stormbird3.jpg" width="500" alt="CG Scale folded" align="center" />
+
+<img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/photo-stormbird1.jpg" width="500" alt="CG Scale folded" align="center" />
