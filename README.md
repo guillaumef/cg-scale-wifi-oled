@@ -23,6 +23,15 @@ The scale 3d parts are parametric and designed with openscad. You can edit the S
 - [x] Assembly: [CG Scale Assembly](documentation/assembly.pdf)
 - [x] Manual: [CG Scale Manual](documentation/manual.pdf)
 
-<img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/photo-stormbird3.jpg" width="500" alt="CG Scale folded" align="center" />
+<img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/photo-stormbird3.jpg" width="500" alt="CG Scale" align="center" />
 
-<img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/photo-stormbird1.jpg" width="500" alt="CG Scale folded" align="center" />
+<img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/photo-stormbird1.jpg" width="500" alt="CG Scale" align="center" />
+
+**Display**
+Standalone OLED:
+
+<img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/photo-board-stormbird.jpg" width="500" alt="CG Scale board display" align="center" />
+
+Wifi interface:
+
+<img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/screenshot-configuration.jpg" width="500" alt="Wifi interface" align="center" /> <img src="https://github.com/guillaumef/cg-scale-wifi-oled/blob/master/pix/screenshot-stormbird.jpg" width="500" alt="Wifi interface" align="center" />
