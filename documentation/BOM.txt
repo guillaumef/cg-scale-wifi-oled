@@ -7,8 +7,9 @@
 5 x steel rod 3 mm x ~100-150mm (aliexpress / amazon)
 4 x small silicon pad/cap to finish rods end
 1 x dead network cable perfect for cabling (scavenging)
+4 x screws flat head M4 x 14
+4 x screws M5 x 20
 
-M3/M4 screws for the YZC-133
 Heat Shrink tube
 Soldering iron
 
