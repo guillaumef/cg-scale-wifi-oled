@@ -1,6 +1,6 @@
 /*
  * CG Scale
- * Author: Guillaume F.
+ * Author: Guillaume F. ( g@w0.yt )
  * https://github.com/guillaumef/cg-scale-wifi-oled
  *
  * Work on:
@@ -10,6 +10,7 @@
  *    4 - leadingEdge rod		( x2 )
  *    5 - case top
  *    6 - case bottom
+ *    7 - base scale module cover	( x2 )
  *
  *    9 - display all
  */
@@ -26,7 +27,7 @@ ss_hole_2 	= 20;
 /* Scale sensor module */
 ssm_w	= 20;
 ssm_l	= 32;
-ssm_h	= 5;
+ssm_h	= 8;
 
 /* Board */
 board_w = 50;
@@ -108,18 +109,57 @@ module base_holes() {
 	translate([tx, ty + spacer + ss_hole_1, 0]) base_ss_hole();
 	translate([tx, ty + spacer + ss_hole_2, 0]) base_ss_hole();
 }
-module base_ssm_hole() {
-	translate([base_w/2 - ssm_w - 2, base_l/2 - ssm_l, base_root_h]) {
-		minkowski() {
-			cube( [ssm_w, ssm_l, ssm_h*2], center=true );
-			sphere(1);
+
+module base_ssm_hole_mask_hole() {
+	translate([0, ssm_l/2 + 5, 0])
+		cylinder(r=1,h=1000,center=true,$fn=10);
+	translate([0, -(ssm_l/2 + 5), 0])
+		cylinder(r=1,h=1000,center=true,$fn=10);
+}
+
+module base_ssm_hole_mask_one() {
+	minkowski() {
+		cube( [ssm_w, ssm_l, ssm_h*2], center=true );
+		sphere(1);
+	}
+}
+
+module ssm_hole_cover() {
+	union() {
+		difference() {
+			translate([0,0,ssm_h+1])
+				minkowski() {
+					cube( [ ssm_w, ssm_l+20, ssm_h*2], center=true );
+					sphere(1);
+				}
+			translate([0,0,500+2])
+				cube([1000,1000,1000],center=true);
+			base_ssm_hole_mask_hole();
+		}
+		difference() {
+			translate([0,0,0])
+				difference() {
+					scale([.99,.99,1])
+						translate([0,0,ssm_h+1])
+						base_ssm_hole_mask_one();
+					scale([.90,.94,1])
+						translate([0,0,ssm_h+1])
+						base_ssm_hole_mask_one();
+				}
+			translate([0,0,500+4])
+				cube([1000,1000,1000],center=true);
 		}
 	}
+}
+
+module base_ssm_hole_mask() {
+	translate([base_w/2 - ssm_w - 2, base_l/2 - ssm_l, base_root_h]) {
+		base_ssm_hole_mask_one();
+		base_ssm_hole_mask_hole();
+	}
 	translate([base_w/2 + ssm_w + 2, base_l/2 - ssm_l, base_root_h]) {
-		minkowski() {
-			cube( [ssm_w, ssm_l, ssm_h*2], center=true );
-			sphere(1);
-		}
+		base_ssm_hole_mask_one();
+		base_ssm_hole_mask_hole();
 	}
 }
 module base_cablesshole() {
@@ -165,7 +205,7 @@ module base() {
 	difference() {
 		base_root();
 		base_holes();
-		base_ssm_hole();
+		base_ssm_hole_mask();
 		base_cablessholes();
 		base_cablessmholes();
 	}
@@ -228,6 +268,8 @@ module rod_support() {
 		rotate([0,180,0])
 			scale([1.03,1.03,1.03])
 			_support_block_all();
+		cylinder(r=2.1/2,h=100,center=true,$fn=20);
+		cylinder(r=4.5/2,h=4,center=true,$fn=6);
 		for(x = [ ss_wh+10 : 10 : ps_st_l/2 ]) {
 			translate([x,0,ps_st_h - ps_st_hole_depth])
 				cylinder(r=hole_dia/2, h=ps_st_h, center=true);
@@ -278,7 +320,7 @@ module _case() {
 				minkowski() {
 					cube([ board_w + board_clearance*2 + board_case_screw_dia*6 + board_case_thickness*2,
 							board_l + board_clearance*2 + board_case_thickness*2,
-							board_h + board_clearance*4 + board_case_thickness*2 ],
+							board_h + board_clearance*4 + board_case_thickness*2],
 							center=true);
 					sphere(1);
 				}
@@ -372,6 +414,12 @@ if (WORK_ON == 6) {
 	case_bottom();
 }
 
+/*
+ * Base scale module cover
+ */
+if (WORK_ON == 7) {
+	ssm_hole_cover();
+}
 
 /*
  * Display All
@@ -379,6 +427,16 @@ if (WORK_ON == 6) {
 if (WORK_ON == 9) {
 	color("SteelBlue") {
 		base();
+	}
+	color("Yellow") {
+		translate([base_w/2 - ssm_w - 2, base_l/2 - ssm_l, base_root_h+4]) {
+			rotate([180,0,0])
+				ssm_hole_cover();
+		}
+		translate([base_w/2 + ssm_w + 2, base_l/2 - ssm_l, base_root_h+4]) {
+			rotate([180,0,0])
+				ssm_hole_cover();
+		}
 	}
 	color("Silver") {
 		translate([ base_w/2, 10, base_root_h + base_ss_clearance_h + ss_wh ])
@@ -393,9 +451,9 @@ if (WORK_ON == 9) {
 			rod_support();
 		translate([ base_w/2, 10 + ss_l*3/2, base_root_h + base_ss_clearance_h + ss_wh ])
 			rod_support();
-		translate([ base_w/2 - 30, 10 + ss_l*3/2 + 35, base_root_h + base_ss_clearance_h + ss_wh + 100 ])
+		translate([ base_w/2 - 30, 10 + ss_l*3/2 + 35, base_root_h + base_ss_clearance_h + ss_wh + 50 ])
 			rotate([0,0,90]) le_rod_support();
-		translate([ base_w/2 + 30, 10 + ss_l*3/2 + 35, base_root_h + base_ss_clearance_h + ss_wh + 100 ])
+		translate([ base_w/2 + 30, 10 + ss_l*3/2 + 35, base_root_h + base_ss_clearance_h + ss_wh + 50 ])
 			rotate([0,0,90]) le_rod_support();
 
 	}
